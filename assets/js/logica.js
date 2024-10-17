@@ -65,36 +65,3 @@ const mostrarResumen = (ingredientesGratis, ingredientesExtras, total) => {
 
 
 
-
-/*PROPINA???*/
-
-/* Si seleccione que s´i ()
-const mostrarInputPropina = () => {
-    if (!document.getElementById('inputPropina')) {
-        const detalles = document.getElementById('ingredientesSeleccionadosResumen');
-        const inputPropina = document.createElement('input');
-        
-        Object.assign(inputPropina, {
-            type: 'number',
-            id: 'inputPropina',
-            placeholder: 'Ingrese monto de propina'
-        });
-        
-        detalles.appendChild(inputPropina);
-
-        // Crear botón de enviar con propina
-        const botonEnviar = document.createElement('button');
-        botonEnviar.setAttribute('class', 'btn btn-dark');
-        botonEnviar.innerText = 'Enviar pedido con Propina';
-        detalles.appendChild(botonEnviar);
-    }
-};
-
-// Ocultar input de propina si se selecciona "No"
-const ocultarInputPropina = () => {
-    const inputPropina = document.getElementById('inputPropina');
-    if (inputPropina) {
-        inputPropina.remove(); // Elimina el input si ya existe
-    }
-};
-*/
