@@ -1,0 +1,38 @@
+body {
+    background: rgb(255,126,126); /*https://cssgradient.io/*/
+background: linear-gradient(90deg, rgba(255,126,126,1) 0%, rgba(210,161,43,0.5102415966386555) 49%, rgba(115,181,105,1) 100%);
+ }
+
+.containerResumen {
+    background-color:rgb(226, 242, 225);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.productos-contenedor {
+
+    background-color:rgb(242, 234, 234);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {    
+    text-align: center;}
+
+#titulo {
+
+    padding: 20px;
+    text-align: center;
+
+}
+
+#nombrePizzeria {
+    color: white;
+    border-color: black; 
+    font-size: 150px;
+    text-align: center;
+    font-weight: bold;
+
+    font-family: 'Brush Script MT', cursive; /*https://www.w3schools.com/cssref/tryit.php?filename=trycss_font_brushscriptmt*/
+}
+
