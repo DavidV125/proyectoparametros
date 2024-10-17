@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Parámetros - rebound sesion 3 modulo 4</title>
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+   <!--<link rel="stylesheet" href="./assets/css/bootstrap.min.css">-->
+</head>
+
+
+
+<body onload="asignarEventos()">
+
+    <div id="titulo"></div>
+  <h1>Buona Pizza</h1>
+  </div>
+  
+    <div class="productos-contenedor">
+        <h1>MEJORA TU PIZZA</h1>
+        <p>Puede elegir tres ingredientes gratis. Cada ingrediente adicional cuesta $800 pesos cada uno.</p>
+
+        <div id="ingredientes">
+            <p2>Ingredientes disponibles para agregar a tu pizza:</p2>
+
+            <ul class="listaingredientes">
+                <li class="list-group-item">
+                  <input id="checkCarne" class="form-check-input me-1" type="checkbox" value="Carne" aria-label="Carne">
+                  Carne
+                </li>
+                <li class="list-group-item">
+                  <input id="checkPollo" class="form-check-input me-1" type="checkbox" value="Pollo" aria-label="Pollo">
+                  Pollo
+                </li>
+                <li class="list-group-item">
+                  <input id="checkTocino" class="form-check-input me-1" type="checkbox" value="Tocino" aria-label="Tocino">
+                  Tocino
+                </li>
+                <li class="list-group-item">
+                  <input id="checkMozzarella" class="form-check-input me-1" type="checkbox" value="Mozzarella" aria-label="Mozzarella">
+                  Mozzarella
+                </li>
+                <li class="list-group-item">
+                  <input id="checkChampiñon" class="form-check-input me-1" type="checkbox" value="Champiñon" aria-label="Champiñón">
+                  Champiñón
+                </li>
+                <li class="list-group-item">
+                <input id="checkCebolla" class="form-check-input me-1" type="checkbox" value="Cebolla" aria-label="Cebolla">
+                Cebolla
+                </li>
+                <li class="list-group-item">
+                <input id="checkPiña" class="form-check-input me-1" type="checkbox" value="Piña" aria-label="Piña">
+                Piña
+                </li>
+                <li class="list-group-item">
+                <input id="checkPimenton" class="form-check-input me-1" type="checkbox" value="Pimentón" aria-label="Pimentón">
+                Pimentón
+                </li>
+                <li class="list-group-item">
+                <input id="checkExtraqueso" class="form-check-input me-1" type="checkbox" value="ExtraQueso" aria-label="Extra Queso">
+                Extra Queso
+                </li>
+              </ul>
+
+        </div>
+
+
+  
+    <div class="container">
+        <h2>RESUMEN DEL PEDIDO</h2>
+        <div class="resumen">
+            <button class="btn" id="btn-finalizar">Finalizar Pedido</button>
+            <div id="detalles"></div>
+            <p id="detallesResumen"></p>
+            <p>Total a Pagar: $<span id="txtValorFinalAPagar">0</span></p>
+        </div>
+    </div>
+  
+    <script src="./assets/js/logica.js"></script>
+  </body>
+</html>
