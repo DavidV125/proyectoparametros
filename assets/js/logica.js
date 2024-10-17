@@ -13,6 +13,7 @@ const calcularTotal = (precioBase = 15000, masIngredientes) => {
         if (contadorGratis < 3) {
             contadorGratis++; // agrega +1 desppues de que se actualiza
         } else {
+            console.log(`el ingrediente agregado es: ${ingrediente}`);
             precioIngredientesExtras += 800; // precio pizza + ingredientes
         }
     }
@@ -47,7 +48,7 @@ const obtenerIngredientesSeleccionados = () => {
 // mostrarresumen del pedido
 const mostrarResumen = (masIngredientes, total) => {
     const detalles = document.getElementById('detallesResumen');
-    detalles.innerHTML = `Ingredientes seleccionados: ${masIngredientes.join(', ')}<br>Total a pagar: $${total}`;
+    detalles.innerHTML = `Ingredientes seleccionados: ${masIngredientes}<br>Total a pagar: $${total}`;
 };
 
 
